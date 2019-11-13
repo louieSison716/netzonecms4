@@ -1,0 +1,27 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Inconsolata:300,400,700|Material+Icons');
+@import url('https://cdn.jsdelivr.net/npm/@mdi/font@3.x/css/materialdesignicons.min.css');
+
+.admin {
+
+  // Variables
+  @import "abstract/functions";
+  @import "abstract/mixins";
+  @import "abstract/variables";
+
+  // Components
+  @import "component/navigation";
+  @import "component/layout";
+
+}
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/vuetify/2.0.2/vuetify.min.css');
+
+.container {
+  margin-left: 0 !important;
+}
