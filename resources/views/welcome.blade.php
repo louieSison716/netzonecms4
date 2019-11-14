@@ -15,10 +15,13 @@
             integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
             crossorigin="anonymous"
         />
+        <script src="{{ asset('js/app.js') }}" defer></script>
     </head>
     <body>
         <div class="container-fluid">
             @component('navigation')
+            @endcomponent
+            @component('herobanner')
             @endcomponent
             <section class="row mt-5 text-center">
                 <div class="col-md-12 m-auto">

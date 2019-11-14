@@ -7,7 +7,7 @@
     </button>
     
     <div class="collapse navbar-collapse" id="navbarColor03">
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
                 <a class="nav-link" href="{{ url('/') }}">Home <span class="sr-only">(current)</span></a>
             </li>
@@ -53,8 +53,6 @@
                     </li>
                 @endguest
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-            <button class="btn btn-primary my-2 my-sm-0" type="submit">Book Now</button>
-        </form>
+ 
     </div>
 </nav>
